@@ -1,9 +1,11 @@
 REM change the JAVA_HOME path (JRE/JDK 11+)
 set JAVA_HOME=C:\Program Files\Java\jdk-12.0.2
+REM change this path
+set REPOSITORIES_PATH=C:\Users\ojcch\Documents\Repositories\projects
+
+REM -------------------------------------------------
 
 set CUR_DIR=%CD%
-
-set REPOSITORIES_PATH=C:\Users\ojcch\Documents\Repositories\projects
 
 set APPCORE_REPO_PATH=%REPOSITORIES_PATH%\appcore
 set TXT_ANALYZER_REPO_PATH=%REPOSITORIES_PATH%\text-analyzer
